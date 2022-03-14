@@ -14,7 +14,7 @@ But when is tamper with the pack parameter we get the error revealing that it is
 
 ![image](https://user-images.githubusercontent.com/19681324/158091012-39b01015-a57a-454b-bbeb-5e730b5e1698.png)
 
-Lets execute the command & ls / command we get the flag.txt file there. (Here as well you need to enumerate to find exact location of the flag.txt file, root location is an obvious look)
+Lets execute the command **& ls /** we get the flag.txt file there. (Here as well you need to enumerate to find exact location of the flag.txt file, root location is an obvious look)
 
 ![image](https://user-images.githubusercontent.com/19681324/158091195-af3d105f-2db1-476f-a3e8-8f26a5eaa142.png)
 
@@ -22,5 +22,5 @@ After that we can read the flag
 
 ![image](https://user-images.githubusercontent.com/19681324/158091283-a1997509-1000-48cb-8de3-558b7d9c68b1.png)
 
-**Note: Initally i tried ";" as command seperator but didn't get any output after that "&" worked. Find out why ";" didn't work here.
+**Note: Initally i tried ";" as command seperator but didn't get any output after that "&" worked. Find out why ";" didn't work here.**
 
