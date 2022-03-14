@@ -36,4 +36,13 @@ def handleResponse(req, interesting):
     ```
     
 
+Don't forget to add a %s otherwise attack will not succeede. We just need it for execution of the attack
+![image](https://user-images.githubusercontent.com/19681324/158211789-ecfec676-d867-4932-8e5b-de9bed94c978.png)
+
+After successful attack we now have 530 point 
+![image](https://user-images.githubusercontent.com/19681324/158211962-b38c48d5-520b-4a01-8091-e781ffef93ad.png)
+
+we can easily buy the flag now
+
+![image](https://user-images.githubusercontent.com/19681324/158212039-3d096017-def9-4f17-86c9-dcb49461e75b.png)
 
