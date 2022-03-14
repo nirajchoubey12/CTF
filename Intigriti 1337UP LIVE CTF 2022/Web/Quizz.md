@@ -33,7 +33,7 @@ def handleResponse(req, interesting):
     # currently available attributes are req.status, req.wordcount, req.length and req.response
     #if req.status != 404:
     table.add(req)
-    ```
+```
     
 
 Don't forget to add a %s otherwise attack will not succeede. We just need it for execution of the attack
