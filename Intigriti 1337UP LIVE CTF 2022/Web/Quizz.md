@@ -13,7 +13,8 @@ or start a fresh session and just replace the cookies
 
 I used the below script for turbo intruder, can be easily found on portswigger github repo
 
-`def queueRequests(target, wordlists):
+```
+def queueRequests(target, wordlists):
     engine = RequestEngine(endpoint=target.endpoint,
                            concurrentConnections=50,
                            requestsPerConnection=100,
@@ -31,7 +32,8 @@ I used the below script for turbo intruder, can be easily found on portswigger g
 def handleResponse(req, interesting):
     # currently available attributes are req.status, req.wordcount, req.length and req.response
     #if req.status != 404:
-    table.add(req)`
+    table.add(req)
+    ```
     
 
 
