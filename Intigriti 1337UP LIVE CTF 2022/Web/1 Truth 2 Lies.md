@@ -101,7 +101,7 @@ if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5555, debug=True)
 
 ```
-No if you look at second route ( I'm vulnerable )   this line **return render_template_string("Your input: " + BRRRRR_RUNNING)** saying loudly that this is an SSTI. **render_template_string** methos here is the culprit.
+Now if you look at second route ( I'm vulnerable )   this line **return render_template_string("Your input: " + BRRRRR_RUNNING)** saying loudly that this is an SSTI. **render_template_string** methos here is the culprit.
 
 But route is something which is difficult to access through the browser. So we will use a python script to access the url
 
