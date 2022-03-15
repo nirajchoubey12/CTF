@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 ?>
 
 ```
-## Bypassing  if (isset($loggedin) && $loggedin){
+### Bypassing  if (isset($loggedin) && $loggedin){
 
 
 
