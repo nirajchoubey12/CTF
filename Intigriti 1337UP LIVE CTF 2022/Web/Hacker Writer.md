@@ -17,3 +17,6 @@ Use the chrome source tab to format the js in a readable format
 Formatted bundle.js gives up a new get parameter 
 ![image](https://user-images.githubusercontent.com/19681324/158517647-d24d94f5-48b6-424d-96a5-cabac79ae405.png)
 
+Going to the url https://hackerwriter.ctf.intigriti.io/?w00t=r00t 
+![image](https://user-images.githubusercontent.com/19681324/158517932-c85d6b22-d86e-445e-96a5-0b6bd7c359c4.png)
+
