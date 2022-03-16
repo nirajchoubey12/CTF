@@ -70,7 +70,7 @@ So we can directly pass **loggedin=true** in the post request body to bypass thi
 ```
 First condition checks for availability of the get parameter with name action and 2nd condition checks if md5 of get parameter is equal to get parameter value itself, which is not possible in any real world. But this is check is done using loose comparison, which can be exploited.
 
-This [Link]https://github.com/bl4de/ctf/blob/master/2017/HackDatKiwi_CTF_2017/md5games1/md5games1.md here has exploited the same condition. A number which will satisfy this condition is 0e215962017. md5( 0e215962017 ) ---> 0e291242476940776845150308577824
+This ![link](https://github.com/bl4de/ctf/blob/master/2017/HackDatKiwi_CTF_2017/md5games1/md5games1.md) here has exploited the same condition. A number which will satisfy this condition is 0e215962017. md5( 0e215962017 ) ---> 0e291242476940776845150308577824
 
 PHP loose comparison will work as below
 0e215962017 : will be interpreted as 0
