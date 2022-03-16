@@ -11,7 +11,7 @@ This app uses varnish cache
 
 Varnish Cache has a known vulnerability https://www.gosecure.net/blog/2018/04/03/beyond-xss-edge-side-include-injection/
 
-Using the payload **<esi:include src='flag.txt'/> ** gives the flag
+Using the payload **<esi:include src='flag.txt'/>** gives the flag
 
 ![image](https://user-images.githubusercontent.com/19681324/158509911-5e65f6cd-a5b9-4cfc-be82-6d3233500f3e.png)
 
